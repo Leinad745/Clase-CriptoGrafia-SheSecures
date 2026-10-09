@@ -1,6 +1,6 @@
 # Clase de Criptografía - SheSecures
 
-Material para una clase introductoria de criptografía de 1 hora, dirigida a personas con poca o ninguna experiencia en ciberseguridad. Cubre los fundamentos de la criptografía, AES, el ataque Meet-in-the-Middle y el uso de IA como apoyo para resolver desafíos CTF.
+Material para una clase introductoria de criptografía de 1 hora, a gente de cualquier nivel de experiencia en ciberseguridad. Cubre los fundamentos de la criptografía, AES, el ataque Meet-in-the-Middle y el uso de IA como apoyo para resolver desafíos CTF.
 
 ## Estructura
 
@@ -46,10 +46,3 @@ pip install pycryptodome Pillow
 ## Uso del desafío
 
 Las participantes reciben `mitm/README.md`, `mitm/chall.py` y `mitm/output.txt`. La flag no está en el código: `chall.py` la lee desde `mitm/.flag.txt`, archivo que solo debe tener la organización.
-
-Para regenerar `output.txt`:
-
-```bash
-cd mitm
-python3 chall.py > output.txt
-```
