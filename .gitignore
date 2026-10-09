@@ -1,4 +1,6 @@
 tux.png
+tux_cbc.png
+tux_ecb.png
 tmp/
 .prompt.txt
 mitm/.flag.txt
